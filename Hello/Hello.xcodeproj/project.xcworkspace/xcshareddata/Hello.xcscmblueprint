@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD723A60-9936-4A5D-A721-9220A0C660F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : "xinbangIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hello",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hello\/Hello.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/112.74.94.102\/svn\/xinbangIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505"
+    }
+  ]
+}

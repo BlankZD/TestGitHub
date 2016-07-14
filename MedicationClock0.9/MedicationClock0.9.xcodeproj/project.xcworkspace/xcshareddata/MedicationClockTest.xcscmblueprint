@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C8574D0FC01A111FFC6CCEEA3DA98E998478F0B" : 0,
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D34FDFEE-AC40-4BE2-95B4-3220A7C83815",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C8574D0FC01A111FFC6CCEEA3DA98E998478F0B" : "..\/XCode\/GitHubIOS",
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : "xinbangIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MedicationClockTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MedicationClockTest\/MedicationClockTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ouyangzude\/GitHubIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C8574D0FC01A111FFC6CCEEA3DA98E998478F0B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/112.74.94.102\/svn\/xinbangIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505"
+    }
+  ]
+}

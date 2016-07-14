@@ -1,0 +1,27 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0C1A262F-B46E-466B-A0D8-54D22E32E7A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f0699541-34dc-7b41-aad9-38174ff13bff++505" : "xinbangIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MedicationClock0.9",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MedicationClock0.9\/MedicationClock0.9.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/112.74.103.14\/svn\/xinbangIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f0699541-34dc-7b41-aad9-38174ff13bff++505"
+    }
+  ]
+}

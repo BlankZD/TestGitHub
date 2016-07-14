@@ -1,0 +1,1244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304E4E591CCB141800B024CF /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304E4E521CCB140A00B024CF /* Charts.framework */; };
+		304E4E5A1CCB141800B024CF /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 304E4E521CCB140A00B024CF /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		309F20B61C9994AC002AA1DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309F20B51C9994AC002AA1DD /* LaunchScreen.xib */; };
+		30EF256E1C93D1650005E84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EF256D1C93D1650005E84A /* main.m */; };
+		30EF25711C93D1650005E84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EF25701C93D1650005E84A /* AppDelegate.m */; };
+		30EF25791C93D1650005E84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EF25781C93D1650005E84A /* Assets.xcassets */; };
+		30F483E81CED5CD700375C26 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483D21CED5CD700375C26 /* AlarmViewController.m */; };
+		30F483E91CED5CD700375C26 /* AlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483D31CED5CD700375C26 /* AlarmViewController.xib */; };
+		30F483EA1CED5CD700375C26 /* FileFloderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483D51CED5CD700375C26 /* FileFloderList.m */; };
+		30F483EB1CED5CD700375C26 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483D71CED5CD700375C26 /* LoginViewController.m */; };
+		30F483EC1CED5CD700375C26 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483D81CED5CD700375C26 /* LoginViewController.xib */; };
+		30F483ED1CED5CD700375C26 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483DA1CED5CD700375C26 /* MainViewController.m */; };
+		30F483EE1CED5CD700375C26 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483DB1CED5CD700375C26 /* MainViewController.xib */; };
+		30F483EF1CED5CD700375C26 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483DD1CED5CD700375C26 /* PageViewController.m */; };
+		30F483F01CED5CD700375C26 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483DF1CED5CD700375C26 /* RegistViewController.m */; };
+		30F483F11CED5CD700375C26 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483E01CED5CD700375C26 /* RegistViewController.xib */; };
+		30F483F21CED5CD700375C26 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483E21CED5CD700375C26 /* TestViewController.m */; };
+		30F483F31CED5CD700375C26 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483E31CED5CD700375C26 /* TestViewController.xib */; };
+		30F483F41CED5CD700375C26 /* TxtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483E51CED5CD700375C26 /* TxtViewController.m */; };
+		30F484101CED5FBB00375C26 /* AddBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483FB1CED5FBB00375C26 /* AddBloodPressureViewController.m */; };
+		30F484111CED5FBB00375C26 /* AddBloodPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483FC1CED5FBB00375C26 /* AddBloodPressureViewController.xib */; };
+		30F484121CED5FBB00375C26 /* BloodPressureBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F483FE1CED5FBB00375C26 /* BloodPressureBluetoothViewController.m */; };
+		30F484131CED5FBB00375C26 /* BloodPressureBluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F483FF1CED5FBB00375C26 /* BloodPressureBluetoothViewController.xib */; };
+		30F484141CED5FBB00375C26 /* BloodPressureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484021CED5FBB00375C26 /* BloodPressureDetailViewController.m */; };
+		30F484151CED5FBB00375C26 /* BloodPressureDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484031CED5FBB00375C26 /* BloodPressureDetailViewController.xib */; };
+		30F484161CED5FBB00375C26 /* PressureDetailPage1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484051CED5FBB00375C26 /* PressureDetailPage1ViewController.m */; };
+		30F484171CED5FBB00375C26 /* PressureDetailPage1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484061CED5FBB00375C26 /* PressureDetailPage1ViewController.xib */; };
+		30F484181CED5FBB00375C26 /* PressureDetailPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484081CED5FBB00375C26 /* PressureDetailPage2ViewController.m */; };
+		30F484191CED5FBB00375C26 /* PressureDetailPage2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484091CED5FBB00375C26 /* PressureDetailPage2ViewController.xib */; };
+		30F4841A1CED5FBB00375C26 /* BloodPressureInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4840B1CED5FBB00375C26 /* BloodPressureInputViewController.m */; };
+		30F4841B1CED5FBB00375C26 /* BloodPressureInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4840C1CED5FBB00375C26 /* BloodPressureInputViewController.xib */; };
+		30F4841C1CED5FBB00375C26 /* BloodPressureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4840D1CED5FBB00375C26 /* BloodPressureTableViewCell.xib */; };
+		30F4841D1CED5FBB00375C26 /* BloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4840F1CED5FBB00375C26 /* BloodPressureViewController.m */; };
+		30F484381CED60D800375C26 /* AddBloodSugarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484201CED60D800375C26 /* AddBloodSugarViewController.m */; };
+		30F484391CED60D800375C26 /* AddBloodSugarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484211CED60D800375C26 /* AddBloodSugarViewController.xib */; };
+		30F4843A1CED60D800375C26 /* BloodSugarBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484241CED60D800375C26 /* BloodSugarBluetoothViewController.m */; };
+		30F4843B1CED60D800375C26 /* BloodSugarBluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484251CED60D800375C26 /* BloodSugarBluetoothViewController.xib */; };
+		30F4843C1CED60D800375C26 /* SearchBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484271CED60D800375C26 /* SearchBluetooth.m */; };
+		30F4843D1CED60D800375C26 /* BloodSugarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4842A1CED60D800375C26 /* BloodSugarDetailViewController.m */; };
+		30F4843E1CED60D800375C26 /* BloodSugarDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4842B1CED60D800375C26 /* BloodSugarDetailViewController.xib */; };
+		30F4843F1CED60D800375C26 /* SugarDetailPage1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4842D1CED60D800375C26 /* SugarDetailPage1ViewController.m */; };
+		30F484401CED60D800375C26 /* SugarDetailPage1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4842E1CED60D800375C26 /* SugarDetailPage1ViewController.xib */; };
+		30F484411CED60D800375C26 /* SugarDetailPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484301CED60D800375C26 /* SugarDetailPage2ViewController.m */; };
+		30F484421CED60D800375C26 /* SugarDetailPage2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484311CED60D800375C26 /* SugarDetailPage2ViewController.xib */; };
+		30F484431CED60D800375C26 /* BloodSugarInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484331CED60D800375C26 /* BloodSugarInputViewController.m */; };
+		30F484441CED60D800375C26 /* BloodSugarInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484341CED60D800375C26 /* BloodSugarInputViewController.xib */; };
+		30F484451CED60D800375C26 /* BloodSugarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484351CED60D800375C26 /* BloodSugarTableViewCell.xib */; };
+		30F484461CED60D800375C26 /* BloodSugarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484371CED60D800375C26 /* BloodSugarViewController.m */; };
+		30F4845D1CED623800375C26 /* AddPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484491CED623800375C26 /* AddPatientViewController.m */; };
+		30F4845E1CED623800375C26 /* AddPatientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4844A1CED623800375C26 /* AddPatientViewController.xib */; };
+		30F4845F1CED623800375C26 /* PatientBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4844D1CED623800375C26 /* PatientBloodPressureViewController.m */; };
+		30F484601CED623800375C26 /* PatientBloodPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4844E1CED623800375C26 /* PatientBloodPressureViewController.xib */; };
+		30F484611CED623800375C26 /* PatientBloodSugarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484511CED623800375C26 /* PatientBloodSugarViewController.m */; };
+		30F484621CED623800375C26 /* PatientBloodSugarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484521CED623800375C26 /* PatientBloodSugarViewController.xib */; };
+		30F484631CED623800375C26 /* PatientInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484541CED623800375C26 /* PatientInfoViewController.m */; };
+		30F484641CED623800375C26 /* PatientInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484551CED623800375C26 /* PatientInfoViewController.xib */; };
+		30F484651CED623800375C26 /* PatientMedicationRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484581CED623800375C26 /* PatientMedicationRecordViewController.m */; };
+		30F484661CED623800375C26 /* PatientMedicationRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484591CED623800375C26 /* PatientMedicationRecordViewController.xib */; };
+		30F484671CED623800375C26 /* PatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4845B1CED623800375C26 /* PatientsViewController.m */; };
+		30F484681CED623800375C26 /* PatientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4845C1CED623800375C26 /* PatientsViewController.xib */; };
+		30F484851CED64AB00375C26 /* ClockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4846B1CED64AB00375C26 /* ClockDetailViewController.m */; };
+		30F484861CED64AB00375C26 /* ClockDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4846C1CED64AB00375C26 /* ClockDetailViewController.xib */; };
+		30F484871CED64AB00375C26 /* ClockListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4846E1CED64AB00375C26 /* ClockListViewController.m */; };
+		30F484881CED64AB00375C26 /* ClockListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4846F1CED64AB00375C26 /* ClockListViewController.xib */; };
+		30F484891CED64AB00375C26 /* ClockOnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484711CED64AB00375C26 /* ClockOnlineViewController.m */; };
+		30F4848A1CED64AB00375C26 /* ClockSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484731CED64AB00375C26 /* ClockSetViewController.m */; };
+		30F4848B1CED64AB00375C26 /* ClockSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484741CED64AB00375C26 /* ClockSetViewController.xib */; };
+		30F4848C1CED64AB00375C26 /* MedicationClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484761CED64AB00375C26 /* MedicationClockViewController.m */; };
+		30F4848D1CED64AB00375C26 /* MedicationClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484771CED64AB00375C26 /* MedicationClockViewController.xib */; };
+		30F4848E1CED64AB00375C26 /* MedicationDetailPage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4847A1CED64AB00375C26 /* MedicationDetailPage1.m */; };
+		30F4848F1CED64AB00375C26 /* MedicationDetailPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4847B1CED64AB00375C26 /* MedicationDetailPage1.xib */; };
+		30F484901CED64AB00375C26 /* MedicationDetailPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4847D1CED64AB00375C26 /* MedicationDetailPage2.m */; };
+		30F484911CED64AB00375C26 /* MedicationDetailPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F4847E1CED64AB00375C26 /* MedicationDetailPage2.xib */; };
+		30F484921CED64AB00375C26 /* MedicationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484801CED64AB00375C26 /* MedicationDetailViewController.m */; };
+		30F484931CED64AB00375C26 /* MedicationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484811CED64AB00375C26 /* MedicationDetailViewController.xib */; };
+		30F484941CED64AB00375C26 /* TimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484831CED64AB00375C26 /* TimeListViewController.m */; };
+		30F484951CED64AB00375C26 /* TimeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F484841CED64AB00375C26 /* TimeListViewController.xib */; };
+		30F484A61CED64B500375C26 /* ArcMenuBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484991CED64B500375C26 /* ArcMenuBtn.m */; };
+		30F484A71CED64B500375C26 /* ArcMenuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4849B1CED64B500375C26 /* ArcMenuLayout.m */; };
+		30F484A81CED64B500375C26 /* ArcMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4849D1CED64B500375C26 /* ArcMenuView.m */; };
+		30F484A91CED64B500375C26 /* add_clock_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F4849F1CED64B500375C26 /* add_clock_img.png */; };
+		30F484AA1CED64B500375C26 /* blood_pressure.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F484A01CED64B500375C26 /* blood_pressure.png */; };
+		30F484AB1CED64B500375C26 /* blood_suger.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F484A11CED64B500375C26 /* blood_suger.png */; };
+		30F484AC1CED64B500375C26 /* composer_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F484A21CED64B500375C26 /* composer_button.png */; };
+		30F484AD1CED64B500375C26 /* UnderlineTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484A51CED64B500375C26 /* UnderlineTextfield.m */; };
+		30F484B81CED653800375C26 /* MyCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484B01CED653800375C26 /* MyCalendarTool.m */; };
+		30F484B91CED653800375C26 /* MyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484B21CED653800375C26 /* MyCalendarView.m */; };
+		30F484BA1CED653800375C26 /* tabswitcher_long.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F484B41CED653800375C26 /* tabswitcher_long.png */; };
+		30F484BB1CED653800375C26 /* tabswitcher_short.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F484B51CED653800375C26 /* tabswitcher_short.png */; };
+		30F484BC1CED653800375C26 /* ZYRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484B71CED653800375C26 /* ZYRadioButton.m */; };
+		30F484C31CED65B300375C26 /* LoadingAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484BF1CED65B300375C26 /* LoadingAlertController.m */; };
+		30F484C41CED65B300375C26 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484C21CED65B300375C26 /* VerticallyAlignedLabel.m */; };
+		30F484E21CED668700375C26 /* AlarmClockDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484C81CED668700375C26 /* AlarmClockDB.m */; };
+		30F484E31CED668700375C26 /* BloodPressureRecordDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484CA1CED668700375C26 /* BloodPressureRecordDB.m */; };
+		30F484E41CED668700375C26 /* BloodSugarRecordDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484CC1CED668700375C26 /* BloodSugarRecordDB.m */; };
+		30F484E51CED668700375C26 /* ChatListDBDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484CE1CED668700375C26 /* ChatListDBDriver.m */; };
+		30F484E61CED668700375C26 /* DBOpenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484D01CED668700375C26 /* DBOpenHelper.m */; };
+		30F484E81CED668700375C26 /* MedicationRecordDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484D41CED668700375C26 /* MedicationRecordDB.m */; };
+		30F484E91CED668700375C26 /* TestAlarmRecordDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484D61CED668700375C26 /* TestAlarmRecordDB.m */; };
+		30F484EA1CED668700375C26 /* AlarmClockDB_.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484D91CED668700375C26 /* AlarmClockDB_.m */; };
+		30F484EB1CED668700375C26 /* BaseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484DB1CED668700375C26 /* BaseDB.m */; };
+		30F484EC1CED668700375C26 /* BloodPressureDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484DD1CED668700375C26 /* BloodPressureDB.m */; };
+		30F484ED1CED668700375C26 /* BloodSugarDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484DF1CED668700375C26 /* BloodSugarDB.m */; };
+		30F484EE1CED668700375C26 /* MedicationRecordDB_.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484E11CED668700375C26 /* MedicationRecordDB_.m */; };
+		30F4850B1CED67E900375C26 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F484FA1CED67E900375C26 /* ImageUtil.m */; };
+		30F485101CED67E900375C26 /* UIColor+DIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485041CED67E900375C26 /* UIColor+DIY.m */; };
+		30F485191CED695100375C26 /* MyUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485131CED695100375C26 /* MyUncaughtExceptionHandler.m */; };
+		30F4851B1CED695100375C26 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485181CED695100375C26 /* UserInfo.m */; };
+		30F485231CED6C2400375C26 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485221CED6C2400375C26 /* AppConfig.m */; };
+		30F485281CED6CA800375C26 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30F485251CED6CA800375C26 /* alarm.mp3 */; };
+		30F485291CED6CA800375C26 /* NotificationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485271CED6CA800375C26 /* NotificationUtil.m */; };
+		30F4852F1CED6CEE00375C26 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4852C1CED6CEE00375C26 /* HttpUtil.m */; };
+		30F485301CED6CEE00375C26 /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4852E1CED6CEE00375C26 /* JSONUtil.m */; };
+		30F485381CED6D7B00375C26 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485331CED6D7B00375C26 /* CommonUtil.m */; };
+		30F485391CED6D7B00375C26 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485351CED6D7B00375C26 /* DateUtil.m */; };
+		30F4853A1CED6D7B00375C26 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485371CED6D7B00375C26 /* FileUtil.m */; };
+		30F485451CED6E8000375C26 /* mysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30F485421CED6E8000375C26 /* mysong.mp3 */; };
+		30F485461CED6E8000375C26 /* RunInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F485441CED6E8000375C26 /* RunInBackground.m */; };
+		395ED35C1CA2D0E1005A01AC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 395ED35B1CA2D0E1005A01AC /* icon.png */; };
+		396C26C01CAC0F8500BE1A89 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 396C26BF1CAC0F8500BE1A89 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		304E4E511CCB140A00B024CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		304E4E531CCB140A00B024CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		304E4E551CCB140A00B024CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		304E4E571CCB140A00B024CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		304E4E5B1CCB141900B024CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		304E4E5D1CCB141900B024CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				304E4E5A1CCB141800B024CF /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		309F20B51C9994AC002AA1DD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		30EF25691C93D1650005E84A /* MedicationClockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationClockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EF256D1C93D1650005E84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EF256F1C93D1650005E84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30EF25701C93D1650005E84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30EF25781C93D1650005E84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30EF257D1C93D1650005E84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F483D11CED5CD700375C26 /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		30F483D21CED5CD700375C26 /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		30F483D31CED5CD700375C26 /* AlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmViewController.xib; sourceTree = "<group>"; };
+		30F483D41CED5CD700375C26 /* FileFloderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFloderList.h; sourceTree = "<group>"; };
+		30F483D51CED5CD700375C26 /* FileFloderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFloderList.m; sourceTree = "<group>"; };
+		30F483D61CED5CD700375C26 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		30F483D71CED5CD700375C26 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		30F483D81CED5CD700375C26 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		30F483D91CED5CD700375C26 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		30F483DA1CED5CD700375C26 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		30F483DB1CED5CD700375C26 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		30F483DC1CED5CD700375C26 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		30F483DD1CED5CD700375C26 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		30F483DE1CED5CD700375C26 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		30F483DF1CED5CD700375C26 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		30F483E01CED5CD700375C26 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		30F483E11CED5CD700375C26 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		30F483E21CED5CD700375C26 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		30F483E31CED5CD700375C26 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		30F483E41CED5CD700375C26 /* TxtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxtViewController.h; sourceTree = "<group>"; };
+		30F483E51CED5CD700375C26 /* TxtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TxtViewController.m; sourceTree = "<group>"; };
+		30F483FA1CED5FBB00375C26 /* AddBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBloodPressureViewController.h; sourceTree = "<group>"; };
+		30F483FB1CED5FBB00375C26 /* AddBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBloodPressureViewController.m; sourceTree = "<group>"; };
+		30F483FC1CED5FBB00375C26 /* AddBloodPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBloodPressureViewController.xib; sourceTree = "<group>"; };
+		30F483FD1CED5FBB00375C26 /* BloodPressureBluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureBluetoothViewController.h; sourceTree = "<group>"; };
+		30F483FE1CED5FBB00375C26 /* BloodPressureBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureBluetoothViewController.m; sourceTree = "<group>"; };
+		30F483FF1CED5FBB00375C26 /* BloodPressureBluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureBluetoothViewController.xib; sourceTree = "<group>"; };
+		30F484011CED5FBB00375C26 /* BloodPressureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDetailViewController.h; sourceTree = "<group>"; };
+		30F484021CED5FBB00375C26 /* BloodPressureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDetailViewController.m; sourceTree = "<group>"; };
+		30F484031CED5FBB00375C26 /* BloodPressureDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureDetailViewController.xib; sourceTree = "<group>"; };
+		30F484041CED5FBB00375C26 /* PressureDetailPage1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressureDetailPage1ViewController.h; sourceTree = "<group>"; };
+		30F484051CED5FBB00375C26 /* PressureDetailPage1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressureDetailPage1ViewController.m; sourceTree = "<group>"; };
+		30F484061CED5FBB00375C26 /* PressureDetailPage1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PressureDetailPage1ViewController.xib; sourceTree = "<group>"; };
+		30F484071CED5FBB00375C26 /* PressureDetailPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressureDetailPage2ViewController.h; sourceTree = "<group>"; };
+		30F484081CED5FBB00375C26 /* PressureDetailPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressureDetailPage2ViewController.m; sourceTree = "<group>"; };
+		30F484091CED5FBB00375C26 /* PressureDetailPage2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PressureDetailPage2ViewController.xib; sourceTree = "<group>"; };
+		30F4840A1CED5FBB00375C26 /* BloodPressureInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureInputViewController.h; sourceTree = "<group>"; };
+		30F4840B1CED5FBB00375C26 /* BloodPressureInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureInputViewController.m; sourceTree = "<group>"; };
+		30F4840C1CED5FBB00375C26 /* BloodPressureInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureInputViewController.xib; sourceTree = "<group>"; };
+		30F4840D1CED5FBB00375C26 /* BloodPressureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureTableViewCell.xib; sourceTree = "<group>"; };
+		30F4840E1CED5FBB00375C26 /* BloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureViewController.h; sourceTree = "<group>"; };
+		30F4840F1CED5FBB00375C26 /* BloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureViewController.m; sourceTree = "<group>"; };
+		30F4841F1CED60D800375C26 /* AddBloodSugarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBloodSugarViewController.h; sourceTree = "<group>"; };
+		30F484201CED60D800375C26 /* AddBloodSugarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBloodSugarViewController.m; sourceTree = "<group>"; };
+		30F484211CED60D800375C26 /* AddBloodSugarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBloodSugarViewController.xib; sourceTree = "<group>"; };
+		30F484231CED60D800375C26 /* BloodSugarBluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarBluetoothViewController.h; sourceTree = "<group>"; };
+		30F484241CED60D800375C26 /* BloodSugarBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarBluetoothViewController.m; sourceTree = "<group>"; };
+		30F484251CED60D800375C26 /* BloodSugarBluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodSugarBluetoothViewController.xib; sourceTree = "<group>"; };
+		30F484261CED60D800375C26 /* SearchBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBluetooth.h; sourceTree = "<group>"; };
+		30F484271CED60D800375C26 /* SearchBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBluetooth.m; sourceTree = "<group>"; };
+		30F484291CED60D800375C26 /* BloodSugarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarDetailViewController.h; sourceTree = "<group>"; };
+		30F4842A1CED60D800375C26 /* BloodSugarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarDetailViewController.m; sourceTree = "<group>"; };
+		30F4842B1CED60D800375C26 /* BloodSugarDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodSugarDetailViewController.xib; sourceTree = "<group>"; };
+		30F4842C1CED60D800375C26 /* SugarDetailPage1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarDetailPage1ViewController.h; sourceTree = "<group>"; };
+		30F4842D1CED60D800375C26 /* SugarDetailPage1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarDetailPage1ViewController.m; sourceTree = "<group>"; };
+		30F4842E1CED60D800375C26 /* SugarDetailPage1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SugarDetailPage1ViewController.xib; sourceTree = "<group>"; };
+		30F4842F1CED60D800375C26 /* SugarDetailPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarDetailPage2ViewController.h; sourceTree = "<group>"; };
+		30F484301CED60D800375C26 /* SugarDetailPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarDetailPage2ViewController.m; sourceTree = "<group>"; };
+		30F484311CED60D800375C26 /* SugarDetailPage2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SugarDetailPage2ViewController.xib; sourceTree = "<group>"; };
+		30F484321CED60D800375C26 /* BloodSugarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarInputViewController.h; sourceTree = "<group>"; };
+		30F484331CED60D800375C26 /* BloodSugarInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarInputViewController.m; sourceTree = "<group>"; };
+		30F484341CED60D800375C26 /* BloodSugarInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodSugarInputViewController.xib; sourceTree = "<group>"; };
+		30F484351CED60D800375C26 /* BloodSugarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodSugarTableViewCell.xib; sourceTree = "<group>"; };
+		30F484361CED60D800375C26 /* BloodSugarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarViewController.h; sourceTree = "<group>"; };
+		30F484371CED60D800375C26 /* BloodSugarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarViewController.m; sourceTree = "<group>"; };
+		30F484481CED623800375C26 /* AddPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPatientViewController.h; sourceTree = "<group>"; };
+		30F484491CED623800375C26 /* AddPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientViewController.m; sourceTree = "<group>"; };
+		30F4844A1CED623800375C26 /* AddPatientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPatientViewController.xib; sourceTree = "<group>"; };
+		30F4844C1CED623800375C26 /* PatientBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientBloodPressureViewController.h; sourceTree = "<group>"; };
+		30F4844D1CED623800375C26 /* PatientBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientBloodPressureViewController.m; sourceTree = "<group>"; };
+		30F4844E1CED623800375C26 /* PatientBloodPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientBloodPressureViewController.xib; sourceTree = "<group>"; };
+		30F484501CED623800375C26 /* PatientBloodSugarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientBloodSugarViewController.h; sourceTree = "<group>"; };
+		30F484511CED623800375C26 /* PatientBloodSugarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientBloodSugarViewController.m; sourceTree = "<group>"; };
+		30F484521CED623800375C26 /* PatientBloodSugarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientBloodSugarViewController.xib; sourceTree = "<group>"; };
+		30F484531CED623800375C26 /* PatientInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInfoViewController.h; sourceTree = "<group>"; };
+		30F484541CED623800375C26 /* PatientInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInfoViewController.m; sourceTree = "<group>"; };
+		30F484551CED623800375C26 /* PatientInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientInfoViewController.xib; sourceTree = "<group>"; };
+		30F484571CED623800375C26 /* PatientMedicationRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientMedicationRecordViewController.h; sourceTree = "<group>"; };
+		30F484581CED623800375C26 /* PatientMedicationRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientMedicationRecordViewController.m; sourceTree = "<group>"; };
+		30F484591CED623800375C26 /* PatientMedicationRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientMedicationRecordViewController.xib; sourceTree = "<group>"; };
+		30F4845A1CED623800375C26 /* PatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsViewController.h; sourceTree = "<group>"; };
+		30F4845B1CED623800375C26 /* PatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsViewController.m; sourceTree = "<group>"; };
+		30F4845C1CED623800375C26 /* PatientsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientsViewController.xib; sourceTree = "<group>"; };
+		30F4846A1CED64AB00375C26 /* ClockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDetailViewController.h; sourceTree = "<group>"; };
+		30F4846B1CED64AB00375C26 /* ClockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDetailViewController.m; sourceTree = "<group>"; };
+		30F4846C1CED64AB00375C26 /* ClockDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockDetailViewController.xib; sourceTree = "<group>"; };
+		30F4846D1CED64AB00375C26 /* ClockListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockListViewController.h; sourceTree = "<group>"; };
+		30F4846E1CED64AB00375C26 /* ClockListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockListViewController.m; sourceTree = "<group>"; };
+		30F4846F1CED64AB00375C26 /* ClockListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockListViewController.xib; sourceTree = "<group>"; };
+		30F484701CED64AB00375C26 /* ClockOnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockOnlineViewController.h; sourceTree = "<group>"; };
+		30F484711CED64AB00375C26 /* ClockOnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockOnlineViewController.m; sourceTree = "<group>"; };
+		30F484721CED64AB00375C26 /* ClockSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockSetViewController.h; sourceTree = "<group>"; };
+		30F484731CED64AB00375C26 /* ClockSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockSetViewController.m; sourceTree = "<group>"; };
+		30F484741CED64AB00375C26 /* ClockSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockSetViewController.xib; sourceTree = "<group>"; };
+		30F484751CED64AB00375C26 /* MedicationClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationClockViewController.h; sourceTree = "<group>"; };
+		30F484761CED64AB00375C26 /* MedicationClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationClockViewController.m; sourceTree = "<group>"; };
+		30F484771CED64AB00375C26 /* MedicationClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicationClockViewController.xib; sourceTree = "<group>"; };
+		30F484791CED64AB00375C26 /* MedicationDetailPage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDetailPage1.h; sourceTree = "<group>"; };
+		30F4847A1CED64AB00375C26 /* MedicationDetailPage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationDetailPage1.m; sourceTree = "<group>"; };
+		30F4847B1CED64AB00375C26 /* MedicationDetailPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicationDetailPage1.xib; sourceTree = "<group>"; };
+		30F4847C1CED64AB00375C26 /* MedicationDetailPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDetailPage2.h; sourceTree = "<group>"; };
+		30F4847D1CED64AB00375C26 /* MedicationDetailPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationDetailPage2.m; sourceTree = "<group>"; };
+		30F4847E1CED64AB00375C26 /* MedicationDetailPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicationDetailPage2.xib; sourceTree = "<group>"; };
+		30F4847F1CED64AB00375C26 /* MedicationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDetailViewController.h; sourceTree = "<group>"; };
+		30F484801CED64AB00375C26 /* MedicationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationDetailViewController.m; sourceTree = "<group>"; };
+		30F484811CED64AB00375C26 /* MedicationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicationDetailViewController.xib; sourceTree = "<group>"; };
+		30F484821CED64AB00375C26 /* TimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeListViewController.h; sourceTree = "<group>"; };
+		30F484831CED64AB00375C26 /* TimeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeListViewController.m; sourceTree = "<group>"; };
+		30F484841CED64AB00375C26 /* TimeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeListViewController.xib; sourceTree = "<group>"; };
+		30F484981CED64B500375C26 /* ArcMenuBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcMenuBtn.h; sourceTree = "<group>"; };
+		30F484991CED64B500375C26 /* ArcMenuBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcMenuBtn.m; sourceTree = "<group>"; };
+		30F4849A1CED64B500375C26 /* ArcMenuLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcMenuLayout.h; sourceTree = "<group>"; };
+		30F4849B1CED64B500375C26 /* ArcMenuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcMenuLayout.m; sourceTree = "<group>"; };
+		30F4849C1CED64B500375C26 /* ArcMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcMenuView.h; sourceTree = "<group>"; };
+		30F4849D1CED64B500375C26 /* ArcMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcMenuView.m; sourceTree = "<group>"; };
+		30F4849F1CED64B500375C26 /* add_clock_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_clock_img.png; sourceTree = "<group>"; };
+		30F484A01CED64B500375C26 /* blood_pressure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood_pressure.png; sourceTree = "<group>"; };
+		30F484A11CED64B500375C26 /* blood_suger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood_suger.png; sourceTree = "<group>"; };
+		30F484A21CED64B500375C26 /* composer_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composer_button.png; sourceTree = "<group>"; };
+		30F484A41CED64B500375C26 /* UnderlineTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderlineTextfield.h; sourceTree = "<group>"; };
+		30F484A51CED64B500375C26 /* UnderlineTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderlineTextfield.m; sourceTree = "<group>"; };
+		30F484AF1CED653800375C26 /* MyCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendarTool.h; sourceTree = "<group>"; };
+		30F484B01CED653800375C26 /* MyCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendarTool.m; sourceTree = "<group>"; };
+		30F484B11CED653800375C26 /* MyCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendarView.h; sourceTree = "<group>"; };
+		30F484B21CED653800375C26 /* MyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendarView.m; sourceTree = "<group>"; };
+		30F484B41CED653800375C26 /* tabswitcher_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabswitcher_long.png; sourceTree = "<group>"; };
+		30F484B51CED653800375C26 /* tabswitcher_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabswitcher_short.png; sourceTree = "<group>"; };
+		30F484B61CED653800375C26 /* ZYRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRadioButton.h; sourceTree = "<group>"; };
+		30F484B71CED653800375C26 /* ZYRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRadioButton.m; sourceTree = "<group>"; };
+		30F484BE1CED65B300375C26 /* LoadingAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingAlertController.h; sourceTree = "<group>"; };
+		30F484BF1CED65B300375C26 /* LoadingAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingAlertController.m; sourceTree = "<group>"; };
+		30F484C11CED65B300375C26 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		30F484C21CED65B300375C26 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		30F484C71CED668700375C26 /* AlarmClockDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockDB.h; sourceTree = "<group>"; };
+		30F484C81CED668700375C26 /* AlarmClockDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockDB.m; sourceTree = "<group>"; };
+		30F484C91CED668700375C26 /* BloodPressureRecordDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureRecordDB.h; sourceTree = "<group>"; };
+		30F484CA1CED668700375C26 /* BloodPressureRecordDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureRecordDB.m; sourceTree = "<group>"; };
+		30F484CB1CED668700375C26 /* BloodSugarRecordDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarRecordDB.h; sourceTree = "<group>"; };
+		30F484CC1CED668700375C26 /* BloodSugarRecordDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarRecordDB.m; sourceTree = "<group>"; };
+		30F484CD1CED668700375C26 /* ChatListDBDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListDBDriver.h; sourceTree = "<group>"; };
+		30F484CE1CED668700375C26 /* ChatListDBDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListDBDriver.m; sourceTree = "<group>"; };
+		30F484CF1CED668700375C26 /* DBOpenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBOpenHelper.h; sourceTree = "<group>"; };
+		30F484D01CED668700375C26 /* DBOpenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBOpenHelper.m; sourceTree = "<group>"; };
+		30F484D31CED668700375C26 /* MedicationRecordDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationRecordDB.h; sourceTree = "<group>"; };
+		30F484D41CED668700375C26 /* MedicationRecordDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationRecordDB.m; sourceTree = "<group>"; };
+		30F484D51CED668700375C26 /* TestAlarmRecordDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAlarmRecordDB.h; sourceTree = "<group>"; };
+		30F484D61CED668700375C26 /* TestAlarmRecordDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAlarmRecordDB.m; sourceTree = "<group>"; };
+		30F484D81CED668700375C26 /* AlarmClockDB_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockDB_.h; sourceTree = "<group>"; };
+		30F484D91CED668700375C26 /* AlarmClockDB_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockDB_.m; sourceTree = "<group>"; };
+		30F484DA1CED668700375C26 /* BaseDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDB.h; sourceTree = "<group>"; };
+		30F484DB1CED668700375C26 /* BaseDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDB.m; sourceTree = "<group>"; };
+		30F484DC1CED668700375C26 /* BloodPressureDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDB.h; sourceTree = "<group>"; };
+		30F484DD1CED668700375C26 /* BloodPressureDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDB.m; sourceTree = "<group>"; };
+		30F484DE1CED668700375C26 /* BloodSugarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarDB.h; sourceTree = "<group>"; };
+		30F484DF1CED668700375C26 /* BloodSugarDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarDB.m; sourceTree = "<group>"; };
+		30F484E01CED668700375C26 /* MedicationRecordDB_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationRecordDB_.h; sourceTree = "<group>"; };
+		30F484E11CED668700375C26 /* MedicationRecordDB_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationRecordDB_.m; sourceTree = "<group>"; };
+		30F484F91CED67E900375C26 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		30F484FA1CED67E900375C26 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		30F485031CED67E900375C26 /* UIColor+DIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DIY.h"; sourceTree = "<group>"; };
+		30F485041CED67E900375C26 /* UIColor+DIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DIY.m"; sourceTree = "<group>"; };
+		30F485051CED67E900375C26 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		30F485121CED695100375C26 /* MyUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		30F485131CED695100375C26 /* MyUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		30F485171CED695100375C26 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		30F485181CED695100375C26 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		30F485211CED6C2400375C26 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		30F485221CED6C2400375C26 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		30F485251CED6CA800375C26 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		30F485261CED6CA800375C26 /* NotificationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationUtil.h; sourceTree = "<group>"; };
+		30F485271CED6CA800375C26 /* NotificationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationUtil.m; sourceTree = "<group>"; };
+		30F4852B1CED6CEE00375C26 /* HttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtil.h; sourceTree = "<group>"; };
+		30F4852C1CED6CEE00375C26 /* HttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtil.m; sourceTree = "<group>"; };
+		30F4852D1CED6CEE00375C26 /* JSONUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
+		30F4852E1CED6CEE00375C26 /* JSONUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
+		30F485321CED6D7B00375C26 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		30F485331CED6D7B00375C26 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		30F485341CED6D7B00375C26 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		30F485351CED6D7B00375C26 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		30F485361CED6D7B00375C26 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		30F485371CED6D7B00375C26 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		30F485421CED6E8000375C26 /* mysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysong.mp3; sourceTree = "<group>"; };
+		30F485431CED6E8000375C26 /* RunInBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunInBackground.h; sourceTree = "<group>"; };
+		30F485441CED6E8000375C26 /* RunInBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunInBackground.m; sourceTree = "<group>"; };
+		395ED35B1CA2D0E1005A01AC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		396C26BF1CAC0F8500BE1A89 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EF25661C93D1650005E84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396C26C01CAC0F8500BE1A89 /* libsqlite3.tbd in Frameworks */,
+				304E4E591CCB141800B024CF /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304E4E4B1CCB140A00B024CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304E4E521CCB140A00B024CF /* Charts.framework */,
+				304E4E541CCB140A00B024CF /* Charts.framework */,
+				304E4E561CCB140A00B024CF /* Charts.framework */,
+				304E4E581CCB140A00B024CF /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EF25601C93D1650005E84A = {
+			isa = PBXGroup;
+			children = (
+				396C26BF1CAC0F8500BE1A89 /* libsqlite3.tbd */,
+				304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */,
+				30F484C51CED668700375C26 /* Models */,
+				30F483E71CED5CD700375C26 /* Views */,
+				30F485111CED695100375C26 /* Controllers */,
+				30F484EF1CED67E900375C26 /* Utils */,
+				30EF256B1C93D1650005E84A /* MedicationClockTest */,
+				30EF256A1C93D1650005E84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EF256A1C93D1650005E84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EF25691C93D1650005E84A /* MedicationClockTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EF256B1C93D1650005E84A /* MedicationClockTest */ = {
+			isa = PBXGroup;
+			children = (
+				30EF256F1C93D1650005E84A /* AppDelegate.h */,
+				30EF25701C93D1650005E84A /* AppDelegate.m */,
+				309F20B51C9994AC002AA1DD /* LaunchScreen.xib */,
+				30EF25781C93D1650005E84A /* Assets.xcassets */,
+				30EF257D1C93D1650005E84A /* Info.plist */,
+				30EF256C1C93D1650005E84A /* Supporting Files */,
+			);
+			path = MedicationClockTest;
+			sourceTree = "<group>";
+		};
+		30EF256C1C93D1650005E84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				395ED35B1CA2D0E1005A01AC /* icon.png */,
+				30EF256D1C93D1650005E84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F483E61CED5CD700375C26 /* BasePages */ = {
+			isa = PBXGroup;
+			children = (
+				30F483D11CED5CD700375C26 /* AlarmViewController.h */,
+				30F483D21CED5CD700375C26 /* AlarmViewController.m */,
+				30F483D31CED5CD700375C26 /* AlarmViewController.xib */,
+				30F483D41CED5CD700375C26 /* FileFloderList.h */,
+				30F483D51CED5CD700375C26 /* FileFloderList.m */,
+				30F483D61CED5CD700375C26 /* LoginViewController.h */,
+				30F483D71CED5CD700375C26 /* LoginViewController.m */,
+				30F483D81CED5CD700375C26 /* LoginViewController.xib */,
+				30F483D91CED5CD700375C26 /* MainViewController.h */,
+				30F483DA1CED5CD700375C26 /* MainViewController.m */,
+				30F483DB1CED5CD700375C26 /* MainViewController.xib */,
+				30F483DC1CED5CD700375C26 /* PageViewController.h */,
+				30F483DD1CED5CD700375C26 /* PageViewController.m */,
+				30F483DE1CED5CD700375C26 /* RegistViewController.h */,
+				30F483DF1CED5CD700375C26 /* RegistViewController.m */,
+				30F483E01CED5CD700375C26 /* RegistViewController.xib */,
+				30F483E11CED5CD700375C26 /* TestViewController.h */,
+				30F483E21CED5CD700375C26 /* TestViewController.m */,
+				30F483E31CED5CD700375C26 /* TestViewController.xib */,
+				30F483E41CED5CD700375C26 /* TxtViewController.h */,
+				30F483E51CED5CD700375C26 /* TxtViewController.m */,
+			);
+			path = BasePages;
+			sourceTree = "<group>";
+		};
+		30F483E71CED5CD700375C26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30F484961CED64B500375C26 /* UIView */,
+				30F483E61CED5CD700375C26 /* BasePages */,
+				30F4841E1CED60D800375C26 /* BloodSugarPages */,
+				30F483F91CED5FBB00375C26 /* BloodPressurePages */,
+				30F484691CED64AB00375C26 /* MedicationClockPages */,
+				30F484471CED623800375C26 /* SufferersCirclePages */,
+			);
+			name = Views;
+			path = Charts/../Views;
+			sourceTree = "<group>";
+		};
+		30F483F91CED5FBB00375C26 /* BloodPressurePages */ = {
+			isa = PBXGroup;
+			children = (
+				30F484001CED5FBB00375C26 /* BloodPressureDetail */,
+				30F483FA1CED5FBB00375C26 /* AddBloodPressureViewController.h */,
+				30F483FB1CED5FBB00375C26 /* AddBloodPressureViewController.m */,
+				30F483FC1CED5FBB00375C26 /* AddBloodPressureViewController.xib */,
+				30F483FD1CED5FBB00375C26 /* BloodPressureBluetoothViewController.h */,
+				30F483FE1CED5FBB00375C26 /* BloodPressureBluetoothViewController.m */,
+				30F483FF1CED5FBB00375C26 /* BloodPressureBluetoothViewController.xib */,
+				30F4840A1CED5FBB00375C26 /* BloodPressureInputViewController.h */,
+				30F4840B1CED5FBB00375C26 /* BloodPressureInputViewController.m */,
+				30F4840C1CED5FBB00375C26 /* BloodPressureInputViewController.xib */,
+				30F4840D1CED5FBB00375C26 /* BloodPressureTableViewCell.xib */,
+				30F4840E1CED5FBB00375C26 /* BloodPressureViewController.h */,
+				30F4840F1CED5FBB00375C26 /* BloodPressureViewController.m */,
+			);
+			path = BloodPressurePages;
+			sourceTree = "<group>";
+		};
+		30F484001CED5FBB00375C26 /* BloodPressureDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30F484011CED5FBB00375C26 /* BloodPressureDetailViewController.h */,
+				30F484021CED5FBB00375C26 /* BloodPressureDetailViewController.m */,
+				30F484031CED5FBB00375C26 /* BloodPressureDetailViewController.xib */,
+				30F484041CED5FBB00375C26 /* PressureDetailPage1ViewController.h */,
+				30F484051CED5FBB00375C26 /* PressureDetailPage1ViewController.m */,
+				30F484061CED5FBB00375C26 /* PressureDetailPage1ViewController.xib */,
+				30F484071CED5FBB00375C26 /* PressureDetailPage2ViewController.h */,
+				30F484081CED5FBB00375C26 /* PressureDetailPage2ViewController.m */,
+				30F484091CED5FBB00375C26 /* PressureDetailPage2ViewController.xib */,
+			);
+			path = BloodPressureDetail;
+			sourceTree = "<group>";
+		};
+		30F4841E1CED60D800375C26 /* BloodSugarPages */ = {
+			isa = PBXGroup;
+			children = (
+				30F484281CED60D800375C26 /* BloodSugarDetail */,
+				30F484221CED60D800375C26 /* BloodSugarBluetooth */,
+				30F4841F1CED60D800375C26 /* AddBloodSugarViewController.h */,
+				30F484201CED60D800375C26 /* AddBloodSugarViewController.m */,
+				30F484211CED60D800375C26 /* AddBloodSugarViewController.xib */,
+				30F484321CED60D800375C26 /* BloodSugarInputViewController.h */,
+				30F484331CED60D800375C26 /* BloodSugarInputViewController.m */,
+				30F484341CED60D800375C26 /* BloodSugarInputViewController.xib */,
+				30F484351CED60D800375C26 /* BloodSugarTableViewCell.xib */,
+				30F484361CED60D800375C26 /* BloodSugarViewController.h */,
+				30F484371CED60D800375C26 /* BloodSugarViewController.m */,
+			);
+			path = BloodSugarPages;
+			sourceTree = "<group>";
+		};
+		30F484221CED60D800375C26 /* BloodSugarBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				30F484231CED60D800375C26 /* BloodSugarBluetoothViewController.h */,
+				30F484241CED60D800375C26 /* BloodSugarBluetoothViewController.m */,
+				30F484251CED60D800375C26 /* BloodSugarBluetoothViewController.xib */,
+				30F484261CED60D800375C26 /* SearchBluetooth.h */,
+				30F484271CED60D800375C26 /* SearchBluetooth.m */,
+			);
+			path = BloodSugarBluetooth;
+			sourceTree = "<group>";
+		};
+		30F484281CED60D800375C26 /* BloodSugarDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30F484291CED60D800375C26 /* BloodSugarDetailViewController.h */,
+				30F4842A1CED60D800375C26 /* BloodSugarDetailViewController.m */,
+				30F4842B1CED60D800375C26 /* BloodSugarDetailViewController.xib */,
+				30F4842C1CED60D800375C26 /* SugarDetailPage1ViewController.h */,
+				30F4842D1CED60D800375C26 /* SugarDetailPage1ViewController.m */,
+				30F4842E1CED60D800375C26 /* SugarDetailPage1ViewController.xib */,
+				30F4842F1CED60D800375C26 /* SugarDetailPage2ViewController.h */,
+				30F484301CED60D800375C26 /* SugarDetailPage2ViewController.m */,
+				30F484311CED60D800375C26 /* SugarDetailPage2ViewController.xib */,
+			);
+			path = BloodSugarDetail;
+			sourceTree = "<group>";
+		};
+		30F484471CED623800375C26 /* SufferersCirclePages */ = {
+			isa = PBXGroup;
+			children = (
+				30F484481CED623800375C26 /* AddPatientViewController.h */,
+				30F484491CED623800375C26 /* AddPatientViewController.m */,
+				30F4844A1CED623800375C26 /* AddPatientViewController.xib */,
+				30F4844B1CED623800375C26 /* PatientBloodPressurePages */,
+				30F4844F1CED623800375C26 /* PatientBloodSugarPages */,
+				30F484531CED623800375C26 /* PatientInfoViewController.h */,
+				30F484541CED623800375C26 /* PatientInfoViewController.m */,
+				30F484551CED623800375C26 /* PatientInfoViewController.xib */,
+				30F484561CED623800375C26 /* PatientMedicationRecordPages */,
+				30F4845A1CED623800375C26 /* PatientsViewController.h */,
+				30F4845B1CED623800375C26 /* PatientsViewController.m */,
+				30F4845C1CED623800375C26 /* PatientsViewController.xib */,
+			);
+			path = SufferersCirclePages;
+			sourceTree = "<group>";
+		};
+		30F4844B1CED623800375C26 /* PatientBloodPressurePages */ = {
+			isa = PBXGroup;
+			children = (
+				30F4844C1CED623800375C26 /* PatientBloodPressureViewController.h */,
+				30F4844D1CED623800375C26 /* PatientBloodPressureViewController.m */,
+				30F4844E1CED623800375C26 /* PatientBloodPressureViewController.xib */,
+			);
+			path = PatientBloodPressurePages;
+			sourceTree = "<group>";
+		};
+		30F4844F1CED623800375C26 /* PatientBloodSugarPages */ = {
+			isa = PBXGroup;
+			children = (
+				30F484501CED623800375C26 /* PatientBloodSugarViewController.h */,
+				30F484511CED623800375C26 /* PatientBloodSugarViewController.m */,
+				30F484521CED623800375C26 /* PatientBloodSugarViewController.xib */,
+			);
+			path = PatientBloodSugarPages;
+			sourceTree = "<group>";
+		};
+		30F484561CED623800375C26 /* PatientMedicationRecordPages */ = {
+			isa = PBXGroup;
+			children = (
+				30F484571CED623800375C26 /* PatientMedicationRecordViewController.h */,
+				30F484581CED623800375C26 /* PatientMedicationRecordViewController.m */,
+				30F484591CED623800375C26 /* PatientMedicationRecordViewController.xib */,
+			);
+			path = PatientMedicationRecordPages;
+			sourceTree = "<group>";
+		};
+		30F484691CED64AB00375C26 /* MedicationClockPages */ = {
+			isa = PBXGroup;
+			children = (
+				30F4846A1CED64AB00375C26 /* ClockDetailViewController.h */,
+				30F4846B1CED64AB00375C26 /* ClockDetailViewController.m */,
+				30F4846C1CED64AB00375C26 /* ClockDetailViewController.xib */,
+				30F4846D1CED64AB00375C26 /* ClockListViewController.h */,
+				30F4846E1CED64AB00375C26 /* ClockListViewController.m */,
+				30F4846F1CED64AB00375C26 /* ClockListViewController.xib */,
+				30F484701CED64AB00375C26 /* ClockOnlineViewController.h */,
+				30F484711CED64AB00375C26 /* ClockOnlineViewController.m */,
+				30F484721CED64AB00375C26 /* ClockSetViewController.h */,
+				30F484731CED64AB00375C26 /* ClockSetViewController.m */,
+				30F484741CED64AB00375C26 /* ClockSetViewController.xib */,
+				30F484751CED64AB00375C26 /* MedicationClockViewController.h */,
+				30F484761CED64AB00375C26 /* MedicationClockViewController.m */,
+				30F484771CED64AB00375C26 /* MedicationClockViewController.xib */,
+				30F484781CED64AB00375C26 /* MedicationDetailPage */,
+				30F484821CED64AB00375C26 /* TimeListViewController.h */,
+				30F484831CED64AB00375C26 /* TimeListViewController.m */,
+				30F484841CED64AB00375C26 /* TimeListViewController.xib */,
+			);
+			path = MedicationClockPages;
+			sourceTree = "<group>";
+		};
+		30F484781CED64AB00375C26 /* MedicationDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				30F484791CED64AB00375C26 /* MedicationDetailPage1.h */,
+				30F4847A1CED64AB00375C26 /* MedicationDetailPage1.m */,
+				30F4847B1CED64AB00375C26 /* MedicationDetailPage1.xib */,
+				30F4847C1CED64AB00375C26 /* MedicationDetailPage2.h */,
+				30F4847D1CED64AB00375C26 /* MedicationDetailPage2.m */,
+				30F4847E1CED64AB00375C26 /* MedicationDetailPage2.xib */,
+				30F4847F1CED64AB00375C26 /* MedicationDetailViewController.h */,
+				30F484801CED64AB00375C26 /* MedicationDetailViewController.m */,
+				30F484811CED64AB00375C26 /* MedicationDetailViewController.xib */,
+			);
+			path = MedicationDetailPage;
+			sourceTree = "<group>";
+		};
+		30F484961CED64B500375C26 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				30F484AE1CED653800375C26 /* MyCalendar */,
+				30F484971CED64B500375C26 /* ArcMenuView */,
+				30F484B31CED653800375C26 /* ZYRadioButton */,
+				30F484A31CED64B500375C26 /* UnderlineTextfield */,
+				30F484C01CED65B300375C26 /* VerticallyAlignedLabel */,
+				30F484BD1CED65B300375C26 /* LoadingAlert */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		30F484971CED64B500375C26 /* ArcMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				30F4849E1CED64B500375C26 /* Image */,
+				30F484981CED64B500375C26 /* ArcMenuBtn.h */,
+				30F484991CED64B500375C26 /* ArcMenuBtn.m */,
+				30F4849A1CED64B500375C26 /* ArcMenuLayout.h */,
+				30F4849B1CED64B500375C26 /* ArcMenuLayout.m */,
+				30F4849C1CED64B500375C26 /* ArcMenuView.h */,
+				30F4849D1CED64B500375C26 /* ArcMenuView.m */,
+			);
+			path = ArcMenuView;
+			sourceTree = "<group>";
+		};
+		30F4849E1CED64B500375C26 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				30F4849F1CED64B500375C26 /* add_clock_img.png */,
+				30F484A01CED64B500375C26 /* blood_pressure.png */,
+				30F484A11CED64B500375C26 /* blood_suger.png */,
+				30F484A21CED64B500375C26 /* composer_button.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		30F484A31CED64B500375C26 /* UnderlineTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				30F484A41CED64B500375C26 /* UnderlineTextfield.h */,
+				30F484A51CED64B500375C26 /* UnderlineTextfield.m */,
+			);
+			path = UnderlineTextfield;
+			sourceTree = "<group>";
+		};
+		30F484AE1CED653800375C26 /* MyCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				30F484AF1CED653800375C26 /* MyCalendarTool.h */,
+				30F484B01CED653800375C26 /* MyCalendarTool.m */,
+				30F484B11CED653800375C26 /* MyCalendarView.h */,
+				30F484B21CED653800375C26 /* MyCalendarView.m */,
+			);
+			path = MyCalendar;
+			sourceTree = "<group>";
+		};
+		30F484B31CED653800375C26 /* ZYRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				30F484B41CED653800375C26 /* tabswitcher_long.png */,
+				30F484B51CED653800375C26 /* tabswitcher_short.png */,
+				30F484B61CED653800375C26 /* ZYRadioButton.h */,
+				30F484B71CED653800375C26 /* ZYRadioButton.m */,
+			);
+			path = ZYRadioButton;
+			sourceTree = "<group>";
+		};
+		30F484BD1CED65B300375C26 /* LoadingAlert */ = {
+			isa = PBXGroup;
+			children = (
+				30F484BE1CED65B300375C26 /* LoadingAlertController.h */,
+				30F484BF1CED65B300375C26 /* LoadingAlertController.m */,
+			);
+			path = LoadingAlert;
+			sourceTree = "<group>";
+		};
+		30F484C01CED65B300375C26 /* VerticallyAlignedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				30F484C11CED65B300375C26 /* VerticallyAlignedLabel.h */,
+				30F484C21CED65B300375C26 /* VerticallyAlignedLabel.m */,
+			);
+			path = VerticallyAlignedLabel;
+			sourceTree = "<group>";
+		};
+		30F484C51CED668700375C26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30F484C61CED668700375C26 /* db */,
+				30F484D71CED668700375C26 /* SQLiteDB */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30F484C61CED668700375C26 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				30F484C71CED668700375C26 /* AlarmClockDB.h */,
+				30F484C81CED668700375C26 /* AlarmClockDB.m */,
+				30F484C91CED668700375C26 /* BloodPressureRecordDB.h */,
+				30F484CA1CED668700375C26 /* BloodPressureRecordDB.m */,
+				30F484CB1CED668700375C26 /* BloodSugarRecordDB.h */,
+				30F484CC1CED668700375C26 /* BloodSugarRecordDB.m */,
+				30F484CD1CED668700375C26 /* ChatListDBDriver.h */,
+				30F484CE1CED668700375C26 /* ChatListDBDriver.m */,
+				30F484CF1CED668700375C26 /* DBOpenHelper.h */,
+				30F484D01CED668700375C26 /* DBOpenHelper.m */,
+				30F484D31CED668700375C26 /* MedicationRecordDB.h */,
+				30F484D41CED668700375C26 /* MedicationRecordDB.m */,
+				30F484D51CED668700375C26 /* TestAlarmRecordDB.h */,
+				30F484D61CED668700375C26 /* TestAlarmRecordDB.m */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		30F484D71CED668700375C26 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				30F484D81CED668700375C26 /* AlarmClockDB_.h */,
+				30F484D91CED668700375C26 /* AlarmClockDB_.m */,
+				30F484DA1CED668700375C26 /* BaseDB.h */,
+				30F484DB1CED668700375C26 /* BaseDB.m */,
+				30F484DC1CED668700375C26 /* BloodPressureDB.h */,
+				30F484DD1CED668700375C26 /* BloodPressureDB.m */,
+				30F484DE1CED668700375C26 /* BloodSugarDB.h */,
+				30F484DF1CED668700375C26 /* BloodSugarDB.m */,
+				30F484E01CED668700375C26 /* MedicationRecordDB_.h */,
+				30F484E11CED668700375C26 /* MedicationRecordDB_.m */,
+			);
+			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		30F484EF1CED67E900375C26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				30F485311CED6D7B00375C26 /* BaseUtil */,
+				30F4852A1CED6CEE00375C26 /* HttpUtil */,
+				30F485241CED6CA800375C26 /* NotificationUtil */,
+				30F484F91CED67E900375C26 /* ImageUtil.h */,
+				30F484FA1CED67E900375C26 /* ImageUtil.m */,
+				30F485031CED67E900375C26 /* UIColor+DIY.h */,
+				30F485041CED67E900375C26 /* UIColor+DIY.m */,
+				30F485051CED67E900375C26 /* Utils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		30F485111CED695100375C26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30F485411CED6E8000375C26 /* runBk */,
+				30F485211CED6C2400375C26 /* AppConfig.h */,
+				30F485221CED6C2400375C26 /* AppConfig.m */,
+				30F485121CED695100375C26 /* MyUncaughtExceptionHandler.h */,
+				30F485131CED695100375C26 /* MyUncaughtExceptionHandler.m */,
+				30F485171CED695100375C26 /* UserInfo.h */,
+				30F485181CED695100375C26 /* UserInfo.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30F485241CED6CA800375C26 /* NotificationUtil */ = {
+			isa = PBXGroup;
+			children = (
+				30F485251CED6CA800375C26 /* alarm.mp3 */,
+				30F485261CED6CA800375C26 /* NotificationUtil.h */,
+				30F485271CED6CA800375C26 /* NotificationUtil.m */,
+			);
+			path = NotificationUtil;
+			sourceTree = "<group>";
+		};
+		30F4852A1CED6CEE00375C26 /* HttpUtil */ = {
+			isa = PBXGroup;
+			children = (
+				30F4852B1CED6CEE00375C26 /* HttpUtil.h */,
+				30F4852C1CED6CEE00375C26 /* HttpUtil.m */,
+				30F4852D1CED6CEE00375C26 /* JSONUtil.h */,
+				30F4852E1CED6CEE00375C26 /* JSONUtil.m */,
+			);
+			path = HttpUtil;
+			sourceTree = "<group>";
+		};
+		30F485311CED6D7B00375C26 /* BaseUtil */ = {
+			isa = PBXGroup;
+			children = (
+				30F485321CED6D7B00375C26 /* CommonUtil.h */,
+				30F485331CED6D7B00375C26 /* CommonUtil.m */,
+				30F485341CED6D7B00375C26 /* DateUtil.h */,
+				30F485351CED6D7B00375C26 /* DateUtil.m */,
+				30F485361CED6D7B00375C26 /* FileUtil.h */,
+				30F485371CED6D7B00375C26 /* FileUtil.m */,
+			);
+			path = BaseUtil;
+			sourceTree = "<group>";
+		};
+		30F485411CED6E8000375C26 /* runBk */ = {
+			isa = PBXGroup;
+			children = (
+				30F485421CED6E8000375C26 /* mysong.mp3 */,
+				30F485431CED6E8000375C26 /* RunInBackground.h */,
+				30F485441CED6E8000375C26 /* RunInBackground.m */,
+			);
+			path = runBk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EF25681C93D1650005E84A /* MedicationClockTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EF25801C93D1650005E84A /* Build configuration list for PBXNativeTarget "MedicationClockTest" */;
+			buildPhases = (
+				30EF25651C93D1650005E84A /* Sources */,
+				30EF25661C93D1650005E84A /* Frameworks */,
+				30EF25671C93D1650005E84A /* Resources */,
+				304E4E5D1CCB141900B024CF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304E4E5C1CCB141900B024CF /* PBXTargetDependency */,
+			);
+			name = MedicationClockTest;
+			productName = Learn2;
+			productReference = 30EF25691C93D1650005E84A /* MedicationClockTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EF25611C93D1650005E84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "歐陽";
+				TargetAttributes = {
+					30EF25681C93D1650005E84A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3T5G63BDBC;
+					};
+				};
+			};
+			buildConfigurationList = 30EF25641C93D1650005E84A /* Build configuration list for PBXProject "MedicationClockTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EF25601C93D1650005E84A;
+			productRefGroup = 30EF256A1C93D1650005E84A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 304E4E4B1CCB140A00B024CF /* Products */;
+					ProjectRef = 304E4E4A1CCB140A00B024CF /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				30EF25681C93D1650005E84A /* MedicationClockTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		304E4E521CCB140A00B024CF /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 304E4E511CCB140A00B024CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		304E4E541CCB140A00B024CF /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 304E4E531CCB140A00B024CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		304E4E561CCB140A00B024CF /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 304E4E551CCB140A00B024CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		304E4E581CCB140A00B024CF /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 304E4E571CCB140A00B024CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EF25671C93D1650005E84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F484171CED5FBB00375C26 /* PressureDetailPage1ViewController.xib in Resources */,
+				30F4843E1CED60D800375C26 /* BloodSugarDetailViewController.xib in Resources */,
+				30F484441CED60D800375C26 /* BloodSugarInputViewController.xib in Resources */,
+				30F484661CED623800375C26 /* PatientMedicationRecordViewController.xib in Resources */,
+				30F484861CED64AB00375C26 /* ClockDetailViewController.xib in Resources */,
+				30F484951CED64AB00375C26 /* TimeListViewController.xib in Resources */,
+				30F484BA1CED653800375C26 /* tabswitcher_long.png in Resources */,
+				30F484AB1CED64B500375C26 /* blood_suger.png in Resources */,
+				30F483F31CED5CD700375C26 /* TestViewController.xib in Resources */,
+				30F4848F1CED64AB00375C26 /* MedicationDetailPage1.xib in Resources */,
+				30F484BB1CED653800375C26 /* tabswitcher_short.png in Resources */,
+				309F20B61C9994AC002AA1DD /* LaunchScreen.xib in Resources */,
+				30F4848B1CED64AB00375C26 /* ClockSetViewController.xib in Resources */,
+				30F484AC1CED64B500375C26 /* composer_button.png in Resources */,
+				30F483F11CED5CD700375C26 /* RegistViewController.xib in Resources */,
+				30F484131CED5FBB00375C26 /* BloodPressureBluetoothViewController.xib in Resources */,
+				30F484151CED5FBB00375C26 /* BloodPressureDetailViewController.xib in Resources */,
+				30F484681CED623800375C26 /* PatientsViewController.xib in Resources */,
+				30F483EE1CED5CD700375C26 /* MainViewController.xib in Resources */,
+				30F484191CED5FBB00375C26 /* PressureDetailPage2ViewController.xib in Resources */,
+				30F485281CED6CA800375C26 /* alarm.mp3 in Resources */,
+				30F484AA1CED64B500375C26 /* blood_pressure.png in Resources */,
+				30F484931CED64AB00375C26 /* MedicationDetailViewController.xib in Resources */,
+				30F4841C1CED5FBB00375C26 /* BloodPressureTableViewCell.xib in Resources */,
+				30F4848D1CED64AB00375C26 /* MedicationClockViewController.xib in Resources */,
+				30F484391CED60D800375C26 /* AddBloodSugarViewController.xib in Resources */,
+				30F484621CED623800375C26 /* PatientBloodSugarViewController.xib in Resources */,
+				30F483E91CED5CD700375C26 /* AlarmViewController.xib in Resources */,
+				30F4845E1CED623800375C26 /* AddPatientViewController.xib in Resources */,
+				30F4841B1CED5FBB00375C26 /* BloodPressureInputViewController.xib in Resources */,
+				30F484401CED60D800375C26 /* SugarDetailPage1ViewController.xib in Resources */,
+				30F484641CED623800375C26 /* PatientInfoViewController.xib in Resources */,
+				30F484421CED60D800375C26 /* SugarDetailPage2ViewController.xib in Resources */,
+				30F4843B1CED60D800375C26 /* BloodSugarBluetoothViewController.xib in Resources */,
+				30EF25791C93D1650005E84A /* Assets.xcassets in Resources */,
+				30F484A91CED64B500375C26 /* add_clock_img.png in Resources */,
+				30F484451CED60D800375C26 /* BloodSugarTableViewCell.xib in Resources */,
+				30F485451CED6E8000375C26 /* mysong.mp3 in Resources */,
+				30F484881CED64AB00375C26 /* ClockListViewController.xib in Resources */,
+				395ED35C1CA2D0E1005A01AC /* icon.png in Resources */,
+				30F484601CED623800375C26 /* PatientBloodPressureViewController.xib in Resources */,
+				30F484111CED5FBB00375C26 /* AddBloodPressureViewController.xib in Resources */,
+				30F483EC1CED5CD700375C26 /* LoginViewController.xib in Resources */,
+				30F484911CED64AB00375C26 /* MedicationDetailPage2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EF25651C93D1650005E84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F484851CED64AB00375C26 /* ClockDetailViewController.m in Sources */,
+				30F483E81CED5CD700375C26 /* AlarmViewController.m in Sources */,
+				30F485291CED6CA800375C26 /* NotificationUtil.m in Sources */,
+				30F484C41CED65B300375C26 /* VerticallyAlignedLabel.m in Sources */,
+				30F485191CED695100375C26 /* MyUncaughtExceptionHandler.m in Sources */,
+				30F483F01CED5CD700375C26 /* RegistViewController.m in Sources */,
+				30F484A71CED64B500375C26 /* ArcMenuLayout.m in Sources */,
+				30F483F21CED5CD700375C26 /* TestViewController.m in Sources */,
+				30F484E41CED668700375C26 /* BloodSugarRecordDB.m in Sources */,
+				30F484891CED64AB00375C26 /* ClockOnlineViewController.m in Sources */,
+				30F484161CED5FBB00375C26 /* PressureDetailPage1ViewController.m in Sources */,
+				30F484E91CED668700375C26 /* TestAlarmRecordDB.m in Sources */,
+				30F4843D1CED60D800375C26 /* BloodSugarDetailViewController.m in Sources */,
+				30F484381CED60D800375C26 /* AddBloodSugarViewController.m in Sources */,
+				30F4853A1CED6D7B00375C26 /* FileUtil.m in Sources */,
+				30F484A61CED64B500375C26 /* ArcMenuBtn.m in Sources */,
+				30F484E31CED668700375C26 /* BloodPressureRecordDB.m in Sources */,
+				30F4848A1CED64AB00375C26 /* ClockSetViewController.m in Sources */,
+				30F484631CED623800375C26 /* PatientInfoViewController.m in Sources */,
+				30F485301CED6CEE00375C26 /* JSONUtil.m in Sources */,
+				30F484921CED64AB00375C26 /* MedicationDetailViewController.m in Sources */,
+				30F484AD1CED64B500375C26 /* UnderlineTextfield.m in Sources */,
+				30F484BC1CED653800375C26 /* ZYRadioButton.m in Sources */,
+				30F485101CED67E900375C26 /* UIColor+DIY.m in Sources */,
+				30F484E21CED668700375C26 /* AlarmClockDB.m in Sources */,
+				30F485461CED6E8000375C26 /* RunInBackground.m in Sources */,
+				30F483F41CED5CD700375C26 /* TxtViewController.m in Sources */,
+				30F483EF1CED5CD700375C26 /* PageViewController.m in Sources */,
+				30F484941CED64AB00375C26 /* TimeListViewController.m in Sources */,
+				30F484901CED64AB00375C26 /* MedicationDetailPage2.m in Sources */,
+				30F483EB1CED5CD700375C26 /* LoginViewController.m in Sources */,
+				30F484ED1CED668700375C26 /* BloodSugarDB.m in Sources */,
+				30F4851B1CED695100375C26 /* UserInfo.m in Sources */,
+				30F4850B1CED67E900375C26 /* ImageUtil.m in Sources */,
+				30F484E51CED668700375C26 /* ChatListDBDriver.m in Sources */,
+				30F485391CED6D7B00375C26 /* DateUtil.m in Sources */,
+				30F484EE1CED668700375C26 /* MedicationRecordDB_.m in Sources */,
+				30F484E61CED668700375C26 /* DBOpenHelper.m in Sources */,
+				30F4841D1CED5FBB00375C26 /* BloodPressureViewController.m in Sources */,
+				30F484C31CED65B300375C26 /* LoadingAlertController.m in Sources */,
+				30F484101CED5FBB00375C26 /* AddBloodPressureViewController.m in Sources */,
+				30F484EA1CED668700375C26 /* AlarmClockDB_.m in Sources */,
+				30F483ED1CED5CD700375C26 /* MainViewController.m in Sources */,
+				30F484411CED60D800375C26 /* SugarDetailPage2ViewController.m in Sources */,
+				30F4852F1CED6CEE00375C26 /* HttpUtil.m in Sources */,
+				30EF25711C93D1650005E84A /* AppDelegate.m in Sources */,
+				30F484EC1CED668700375C26 /* BloodPressureDB.m in Sources */,
+				30F484671CED623800375C26 /* PatientsViewController.m in Sources */,
+				30F484181CED5FBB00375C26 /* PressureDetailPage2ViewController.m in Sources */,
+				30F4841A1CED5FBB00375C26 /* BloodPressureInputViewController.m in Sources */,
+				30F483EA1CED5CD700375C26 /* FileFloderList.m in Sources */,
+				30F484B81CED653800375C26 /* MyCalendarTool.m in Sources */,
+				30F484141CED5FBB00375C26 /* BloodPressureDetailViewController.m in Sources */,
+				30F484871CED64AB00375C26 /* ClockListViewController.m in Sources */,
+				30F484121CED5FBB00375C26 /* BloodPressureBluetoothViewController.m in Sources */,
+				30EF256E1C93D1650005E84A /* main.m in Sources */,
+				30F4845D1CED623800375C26 /* AddPatientViewController.m in Sources */,
+				30F4843A1CED60D800375C26 /* BloodSugarBluetoothViewController.m in Sources */,
+				30F4848C1CED64AB00375C26 /* MedicationClockViewController.m in Sources */,
+				30F484431CED60D800375C26 /* BloodSugarInputViewController.m in Sources */,
+				30F484611CED623800375C26 /* PatientBloodSugarViewController.m in Sources */,
+				30F484461CED60D800375C26 /* BloodSugarViewController.m in Sources */,
+				30F4843F1CED60D800375C26 /* SugarDetailPage1ViewController.m in Sources */,
+				30F485231CED6C2400375C26 /* AppConfig.m in Sources */,
+				30F4848E1CED64AB00375C26 /* MedicationDetailPage1.m in Sources */,
+				30F4845F1CED623800375C26 /* PatientBloodPressureViewController.m in Sources */,
+				30F484651CED623800375C26 /* PatientMedicationRecordViewController.m in Sources */,
+				30F4843C1CED60D800375C26 /* SearchBluetooth.m in Sources */,
+				30F485381CED6D7B00375C26 /* CommonUtil.m in Sources */,
+				30F484A81CED64B500375C26 /* ArcMenuView.m in Sources */,
+				30F484E81CED668700375C26 /* MedicationRecordDB.m in Sources */,
+				30F484EB1CED668700375C26 /* BaseDB.m in Sources */,
+				30F484B91CED653800375C26 /* MyCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304E4E5C1CCB141900B024CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 304E4E5B1CCB141900B024CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30EF257E1C93D1650005E84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30EF257F1C93D1650005E84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EF25811C93D1650005E84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MedicationClockTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xbrjblkj-";
+				PRODUCT_NAME = MedicationClockTest;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		30EF25821C93D1650005E84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MedicationClockTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xbrjblkj-";
+				PRODUCT_NAME = MedicationClockTest;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EF25641C93D1650005E84A /* Build configuration list for PBXProject "MedicationClockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EF257E1C93D1650005E84A /* Debug */,
+				30EF257F1C93D1650005E84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EF25801C93D1650005E84A /* Build configuration list for PBXNativeTarget "MedicationClockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EF25811C93D1650005E84A /* Debug */,
+				30EF25821C93D1650005E84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EF25611C93D1650005E84A /* Project object */;
+}
